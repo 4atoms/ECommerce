@@ -1,12 +1,10 @@
 .button-style{
-    color:white;
-    background-color: blue;
-    border:none;
-    padding: 22px;
-    border-radius:5%;
-    align-items: center;
-    font-size: larger;
-}
-.text{
-    color:red;
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 50%;
 }
