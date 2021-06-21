@@ -1,7 +1,7 @@
-import Checkout from "./checkout";
-const Hello=()=>{
+import Viewproduct from "./viewproduct";
+const Main=()=>{
     return <div>
-     <Checkout/>
+     <Viewproduct/>
     </div>
 }
-export default Hello;
+export default Main;
