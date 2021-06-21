@@ -1,0 +1,12 @@
+.button-style{
+    color:white;
+    background-color: blue;
+    border:none;
+    padding: 22px;
+    border-radius:5%;
+    align-items: center;
+    font-size: larger;
+}
+.text{
+    color:red;
+}
