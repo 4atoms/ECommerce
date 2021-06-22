@@ -1,8 +1,7 @@
 import ReactDOM from 'react-dom';
-import Main from './Component/main.js';
-import './Css/style.css';
+import App from './App.js';
 
 ReactDOM.render(
-    <div className="text"><Main/></div>,
+    <div className="text"><App/></div>,
     document.getElementById("app-root")
 );
