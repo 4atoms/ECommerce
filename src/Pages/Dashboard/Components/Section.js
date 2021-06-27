@@ -1,14 +1,17 @@
 
 import React,{Component} from 'react'
+import Products from './sections/Products';
+import Details from './sections/Details';
+import { Route } from 'react-router-dom';
 
 
-export class Header extends Components{
-    render(){
-        return(
-            <div>
-                Section
-                
-            </div>
-        )
+const Section=()=>{
+    return(
+        <section>
+            <Route path = "/products" Component = {Products} exact/>
+            <Route path = "/product/:id" Component = {Details} />
+        </section>
+    )
+
     }
-}
+export default Section

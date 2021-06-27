@@ -1,0 +1,122 @@
+.wrapper{
+    background-color:#2874f0;
+    position: sticky;
+    top: 0;
+}
+
+
+header{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    
+}
+header .logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+
+}
+
+.search input[type=text] {
+    justify-content: center;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+
+  }
+  
+  
+
+header nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+
+    color:white;
+    padding: 0 30px;
+    
+}
+
+nav ul li a.hover{
+    color: lightseagreen;
+}
+
+nav .nav-cart{
+    cursor: pointer;
+    position: relative;
+    padding-top: 12px;
+}
+nav .nav-cart span{
+    position: absolute;
+    top: -3px;
+    right: -7px;
+    font-size: 10px;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+header .menu,
+header .close{
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 650px){
+    header ul{
+        top: -100px;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background: white;
+        z-index: 99;
+        opacity: 0.97;
+        transition: 0.5 linear;
+    }
+    header .menu,
+    header .close{
+        display: block;
+    }
+
+    header .close{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    header ul.toggle{
+        top:0;
+    }
+
+}
+
+
+
+
+
