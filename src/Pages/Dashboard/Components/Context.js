@@ -99,10 +99,3 @@ const DataProvider=()=>{
 
 export default DataProvider
 
-/*http://myshopcartapp.herokuapp.com
-Sujeet Saha2:08 PM
-<ul>
-      {props.map((value, index) => {
-        return <li key={index}>{value}</li>
-      })}
-    </ul>*/
