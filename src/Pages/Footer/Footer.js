@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import './css/Footer.css'
+import { FooterStyle } from "./Footer.style"
 
 const Footer=()=>{
     return(
-        <div className ="footer">
+        <FooterStyle>
             <h4>Copyright © Flipkart 2021</h4>
-        </div>
+        </FooterStyle>
+        
+
     )
 }
 

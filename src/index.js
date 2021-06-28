@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import Main from './Pages/Dashboard/Main';
+import Main from './Pages/Application/index';
 
 
 ReactDOM.render(

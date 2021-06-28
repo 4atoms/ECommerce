@@ -1,6 +1,6 @@
 import React, { Component } from 'react' 
 import {Link } from 'react-router-dom'
-import '../css/Product.css'
+import '../Product/Product.css'
 
 /*to pass data from one components to other*/
 const Products=(props)=>{  
@@ -18,11 +18,10 @@ const Products=(props)=>{
                         <div className ="content" key={item._id}>
                           <h3>
                           <Link to ={`/Product/${item._id}`}> {item.title}</Link>
-
                           </h3>
                           <span>${item.price}</span>
                           <p>{item.description}</p>
-                          <button>View more </button>
+                          <button>View more</button>
                         </div>
                     </div>
                 ))                        

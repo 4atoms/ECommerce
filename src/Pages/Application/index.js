@@ -1,11 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router} from 'react-router-dom';
-import Header from './Components/Header';
-import Section from './Components/Section';
-import DataContext from "./Components/Context";
-import DataProvider from './Components/Context';
-import Context from './Components/Context';
-import Footer from './Components/Footer';
+import Header from '../Header/Header';
+import Section from '../Dashboard/Components/Section';
+import Context from '../Dashboard/Components/sections/Context/Context';
+import Footer from '../Footer/Footer';
 const Main=()=>{
     return(
         

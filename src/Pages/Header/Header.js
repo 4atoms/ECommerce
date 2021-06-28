@@ -1,10 +1,10 @@
 
 import React, { Component } from 'react'
-import menu from './srv/bars-solid.svg'
-import cart from './srv/cart-plus-solid.svg'
-import close from './srv/times-solid.svg'
+import menu from '../Dashboard/Components/Header_images/bars-solid.svg'
+import cart from '../Dashboard/Components/Header_images/cart-plus-solid.svg'
+import close from '../Dashboard/Components/Header_images/times-solid.svg'
 import {Link } from 'react-router-dom'
-import './css/Header.css'
+import '../Header/Header.css'
 
 
 const Header=()=>{

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Products from './sections/Products';
+import Products from '../Product/Products';
 
 
 const DataProvider=()=>{
@@ -9,6 +9,7 @@ const DataProvider=()=>{
             "_id" : "1",
             "title": "Apple iPhone 11 Pro Max (256GB)",
             "src": "https://assets.wired.com/photos/w_600/wp-content/uploads/2017/12/Apple_iPhone-11-Pro-NEW-600x338.jpg",
+            "description" : "this is i-phone11 pro and best seller",
             "price": 599,
             "colors":["Silver","black","Midnight"],
             "count": 6
