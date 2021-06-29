@@ -1,13 +1,13 @@
-import React, { Component } from 'react' 
+// import React, { Component } from 'react' 
 
 
-const Details=()=>{
-    return(
-        <div>
-            Details
-        </div>
-    )
+// const Details=()=>{
+//     return(
+//         <div>
+//             Details
+//         </div>
+//     )
 
 
-}
-export default Details
+// }
+// export default Details

@@ -1,5 +1,5 @@
 
-import React,{Component} from 'react'
+// import React,{Component} from 'react'
 import Products from './sections/Product/Products';
 import Details from './sections/Details';
 import { Route } from 'react-router-dom';

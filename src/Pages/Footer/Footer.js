@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 import { FooterStyle } from "./Footer.style"
 
 const Footer=()=>{
