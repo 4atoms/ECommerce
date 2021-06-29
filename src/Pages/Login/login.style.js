@@ -12,7 +12,7 @@ export const LoginContent = styled.div`
     background-color:  #ADD8E6;
     color: brown;
     border-color: #ADD8E6;
-    margin-top: 100px;
+    margin-top: 100px
 
     & > htmlFor {
     }
