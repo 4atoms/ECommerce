@@ -8,6 +8,10 @@ import '../Header/Header.css'
 
 
 const Header=()=>{
+    const toInputUppercase = e => {
+        e.target.value = ("" + e.target.value).toUpperCase();
+      };
+      
     return(
         <div className = "wrapper">
             <header>
@@ -21,8 +25,9 @@ const Header=()=>{
 
             </div>
 
+
             <div className ="search">
-                <input type="text" placeholder="Search.."/>
+                <input type="text" placeholder="Search.." onInput={toInputUppercase}/>
             </div>
 
             <nav>
