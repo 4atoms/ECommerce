@@ -7,7 +7,7 @@ const Login = () => {
             <form action = "">
                 <LoginContent>
                     <label className= "labelClass" htmlFor="email">Email</label>
-                    <input type = "text" name = "email" id = "email" autocomplete = "off"/>
+                    <input type = "text" name = "email" id = "email" />
                     <label className= "labelClass" htmlFor="password">Password</label>
                     <input type = "password" name = "password" id = "password" />
                     <button type = "submit">Login</button>
