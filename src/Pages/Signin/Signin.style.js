@@ -53,7 +53,7 @@ export const ButtonBlock = styled.div`
     border-color: darkgrey;
     background-color: darkgrey;
     border-style: solid;
-    margin-top: 10px;
+    margin: 10px 0px 0px 160px;
   }
   & > h4 {
     font-weight: normal;
