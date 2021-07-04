@@ -1,10 +1,10 @@
 
 // import React, { Component } from 'react'
-import menu from '../Dashboard/Components/Header_images/bars-solid.svg'
-import cart from '../Dashboard/Components/Header_images/cart-plus-solid.svg'
-import close from '../Dashboard/Components/Header_images/times-solid.svg'
-import {Link } from 'react-router-dom'
-import '../Header/Header.css'
+import menu from "../Dashboard/Components/Header_images/bars-solid.svg";
+import cart from "../Dashboard/Components/Header_images/cart-plus-solid.svg";
+import close from "../Dashboard/Components/Header_images/times-solid.svg";
+import {Link } from "react-router-dom";
+import "../Header/Header.css";
 
 
 const Header=()=>{
