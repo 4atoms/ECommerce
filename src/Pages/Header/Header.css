@@ -3,23 +3,18 @@
     position: sticky;
     top: 0;
 }
-
-
 header{
     min-height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
-    
 }
 header .logo a{
     text-decoration: none;
     text-transform: uppercase;
     color:white;
-
 }
-
 .search input[type=text] {
     justify-content: center;
     padding: 6px;
@@ -28,25 +23,16 @@ header .logo a{
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-
   }
-  
-  
-
 header nav{
     display: flex;
     position: sticky;
     top: 0;
-    
-
 }
-
 nav ul li{
     list-style: none;
     display: inline-block;
-
 }
-
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
@@ -54,18 +40,19 @@ nav ul li a{
     display: inline-block;
 
     color:white;
-    padding: 0 30px;
-    
+    padding: 0 30px;   
 }
-
 nav ul li a.hover{
     color: lightseagreen;
 }
-
 nav .nav-cart{
     cursor: pointer;
     position: relative;
     padding-top: 12px;
+}
+nav .nav-cart img {
+    width: 20px;
+    height: 20px;
 }
 nav .nav-cart span{
     position: absolute;
@@ -76,14 +63,12 @@ nav .nav-cart span{
     padding: 3px 5px;
     border-radius: 50%;
     z-index: -1;
-
 }
 header .menu,
 header .close{
     cursor: pointer;
     display: none;
 }
-
 @media (max-width: 650px){
     header ul{
         top: -100px;
@@ -113,7 +98,6 @@ header .close{
     header ul.toggle{
         top:0;
     }
-
 }
 
 

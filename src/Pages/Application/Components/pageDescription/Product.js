@@ -7,10 +7,13 @@ const Product = ({ match }) => {
 
   useEffect(() => {
     fetchProduct();
-}, []);
+  }, []);
 
-const fetchProduct = () => {
-    axios.get(`https://shoppingapiacme.herokuapp.com/shopping/?id=${match.params.id}`)
+  const fetchProduct = () => {
+    axios
+      .get(
+        `https://shoppingapiacme.herokuapp.com/shopping/?id=${match.params.id}`
+      )
       .then((res) => {
         setData(res.data);
         console.log(res.data);
@@ -18,16 +21,16 @@ const fetchProduct = () => {
       .catch((err) => console.log(err));
   };
 
-return (
+  return (
     <div>
-        {data.map((item) => {
+      {data.map((item) => {
         return (
-          <div className='product-container' key={item.id}>
+          <div className="product-container" key={item.id}>
             <div>
-              <img className='prod-image' src={item.image} alt='' />
+              <img className="prod-image" src={item.image} alt="" />
             </div>
             <div>
-              <h1 className='brand'>{item.brand}</h1>
+              <h1 className="brand">{item.brand}</h1>
               <h2>{item.item}</h2>
               <p>{item.description}</p>
               <p>
@@ -40,8 +43,8 @@ return (
           </div>
         );
       })}
-      <div className='back'>
-        <Link to='/'>Go Back</Link>
+      <div className="back">
+        <Link to="/">Go Back</Link>
       </div>
     </div>
   );

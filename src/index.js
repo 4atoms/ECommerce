@@ -1,21 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 //import Main from './Pages/Application/index';
-import Main from "./Pages/Application";
-import Login from "../src/Pages/Login";
-//import Footer from "./src/Pages/Footer";
-
+import Main from "../src/Pages/Application";
 
 ReactDOM.render(
-    <div>
-        <Main />
-        
-        
-        <Login />
+  <div>
+    <Main></Main>
+  </div>,
 
-     
-        
-    </div>,
-    
-    document.getElementById("app-root")
+  document.getElementById("app-root")
 );
