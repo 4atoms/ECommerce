@@ -15,6 +15,11 @@ export const LoginContent = styled.div`
   border-color: #add8e6;
   display: block;
   padding-left: 30px;
+
+  & > h3 {
+    text-align: center;
+    margin-right: 30px;
+  }
   margin-top: 100px & > htmlFor {
 
   }
@@ -45,7 +50,10 @@ export const ButtonBlock = styled.div`
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 3px;
-    background-color: grey;
+    border-color: darkgrey;
+    background-color: darkgrey;
+    border-style: solid;
+    margin-top: 10px;
   }
   & > h4 {
     font-weight: normal;

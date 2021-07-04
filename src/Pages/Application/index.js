@@ -13,15 +13,19 @@ import Signin from "../Signin";
 const Main = () => (
   <>
     <BrowserRouter>
-      <Header />
       <Switch>
-        <Route path="/login" component={Login} />
-        <Route path="/signin" component={Signin} />
+        <div className="App">
+          <Route path="/" exact component={Header} />
+          <Route path="/" exact component={ProductPage} />
+          <Route path="/(login)" component={Login} />
+          <Route path="/signin" component={Signin} />
+          <Footer />
+        </div>
+        <ProductPage />
       </Switch>
-      <ProductPage />
-      <Footer />
     </BrowserRouter>
   </>
 );
 
 export default Main;
+// <Header isLoggedIn={true} />
