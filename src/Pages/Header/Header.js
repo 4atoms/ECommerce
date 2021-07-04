@@ -3,9 +3,10 @@ import React from "react";
 import menu from "../Header/Header_images/bars-solid.svg";
 import cart from "../Header/Header_images/cart-plus-solid.svg";
 import close from "../Header/Header_images/times-solid.svg";
-import { Link } from "react-router-dom";
+import { Link, Switch } from "react-router-dom";
 import "../Header/Header.css";
 import "../Header/Header.style";
+// import Login from "../Login";
 
 const Header = () => {
   return (
@@ -37,7 +38,9 @@ const Header = () => {
               <Link to="/contact">Contact-Us</Link>
             </li>
             <li>
-              <Link to="/login">Login/Register</Link>
+              <Switch>
+                <Link to="/login">Login/Register</Link>
+              </Switch>
             </li>
             <li className="close">
               <img src={close} alt="" width="15" />
