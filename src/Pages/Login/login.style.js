@@ -45,7 +45,7 @@ export const InputTypes = styled.div`
 `;
 
 export const ButtonBlock = styled.div`
-  margin-right: 30px;
+  margin: 0px 30px 0px 0px;
   & > button {
     color: white;
     padding: 10px 20px 10px 20px;
@@ -61,4 +61,8 @@ export const ButtonBlock = styled.div`
     text-align: center;
     text-decoration: none;
   }
+`;
+
+export const FormStyle = styled.form`
+  margin: 20px 0px 20px 0px;
 `;

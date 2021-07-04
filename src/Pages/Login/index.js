@@ -1,11 +1,16 @@
 import React from "react";
-import { LoginContent, InputTypes, ButtonBlock } from "./login.style";
+import {
+  LoginContent,
+  InputTypes,
+  ButtonBlock,
+  FormStyle,
+} from "./login.style";
 import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <>
-      <form action="">
+      <FormStyle>
         <LoginContent>
           <h3>Login</h3>
           <label className="labelClass" htmlFor="email">
@@ -28,7 +33,7 @@ const Login = () => {
             </h4>
           </ButtonBlock>
         </LoginContent>
-      </form>
+      </FormStyle>
     </>
   );
 };

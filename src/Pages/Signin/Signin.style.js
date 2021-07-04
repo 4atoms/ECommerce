@@ -61,3 +61,6 @@ export const ButtonBlock = styled.div`
     text-decoration: none;
   }
 `;
+export const FormStyle = styled.form`
+  margin: 20px 0px 20px 0px;
+`;
