@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import FeatureProducts from './Dashboard/FeatureProducts';
-import Product from './pageDescription/Product';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import FeatureProducts from "./Dashboard/FeatureProducts";
+import Product from "./pageDescription/Product";
 
 const ProductPage=()=>{
     return(

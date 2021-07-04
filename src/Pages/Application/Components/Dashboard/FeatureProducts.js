@@ -1,6 +1,7 @@
-import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
+import React, {useState, useEffect} from "react";
+import { Link } from "react-router-dom";
+import { Title, Container, Card } from  "./FeatureProducts.style";
+import axios from "axios";
 
 const FeatureProducts = () => {
 
@@ -24,17 +25,20 @@ const fetchProducts = () =>{
 
   return (
     <div>
-      <h1>Featured Products</h1>
-      <div className='item-container'>
+        <Title>
+            Featured Products !
+        </Title>
+     
+        <Container>
             {products.map((product) => (
-            <div className='card' key={product.id}>
+            <Card key={product.id}>
                  <img src={product.image} alt='' />
                 <h3>{product.brand}</h3>
                 <p>{product.item}</p>
                 <Link to={`/product/${product.id}`}>View</Link>
-            </div>
+            </Card>
             ))}
-        </div>
+        </Container>
     </div>
   );
 };

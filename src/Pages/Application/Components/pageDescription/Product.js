@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
 const Product = ({ match }) => {
   const [data, setData] = useState([]);
@@ -41,7 +41,7 @@ return (
         );
       })}
       <div className='back'>
-        <Link to='/'>FEATURED PRODUCTS</Link>
+        <Link to='/'>Go Back</Link>
       </div>
     </div>
   );
