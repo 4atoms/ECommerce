@@ -1,28 +1,24 @@
-import React from 'react';
-import {BrowserRouter as Router} from 'react-router-dom';
-import Header from '../Header/Header';
-import Section from '../Dashboard/Components/Section';
-import Context from '../Dashboard/Components/sections/Context/Context';
-import Footer from '../Footer/Footer';
-const Main=()=>{
+import React from "react";
+//import ReactDOM from "react-dom";
+//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+//import FeatureProducts from './FeatureProducts';
+//import Product from './Product';
+import "./index.css";
+import ProductPage from "./Components/displayproduct";
+//import Footer from './Pages/Footer';
+
+
+const Main = () => {
     return(
-        
-            <div className = "Main">
-                <Router>
-                    <Header/>
-                    <Context/>
-                    <Section/>
-                    <Footer/>
-                </Router>
-            </div>
-        
-    )
-       
+        <>
+            <ProductPage />
+           
+            
+            
+        </>
+    );
+   
 
-        
-    }
-
-
-export default Main; 
+}
  
-
+export default Main;
