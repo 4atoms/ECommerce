@@ -1,6 +1,6 @@
 import React from "react";
 //import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import FeatureProducts from './FeatureProducts';
 //import Product from './Product';
 import "./index.css";
@@ -12,7 +12,7 @@ import Signin from "../Signin";
 
 const Main = () => (
   <>
-    <BrowserRouter>
+    <Router>
       <Switch>
         <div className="App">
           <Route path="/" exact component={Header} />
@@ -23,7 +23,7 @@ const Main = () => (
         </div>
         <ProductPage />
       </Switch>
-    </BrowserRouter>
+    </Router>
   </>
 );
 
