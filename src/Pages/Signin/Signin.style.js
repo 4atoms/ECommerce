@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const SigninContent = styled.div`
   border: 1px solid;
+  border-radius: 10px;
   text-align: left;
   height: 300px;
   font-family: "Helvetica";
@@ -62,5 +63,5 @@ export const ButtonBlock = styled.div`
   }
 `;
 export const FormStyle = styled.form`
-  margin: 20px 0px 20px 0px;
+  margin: 127px 0px 130px 0px;
 `;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const LoginContent = styled.div`
   border: 1px solid;
+  border-radius: 10px;
   text-align: left;
   height: 300px;
   font-family: "Helvetica";
@@ -64,5 +65,5 @@ export const ButtonBlock = styled.div`
 `;
 
 export const FormStyle = styled.form`
-  margin: 20px 0px 20px 0px;
+  margin: 137px 0px 140px 0px;
 `;
