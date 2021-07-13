@@ -19,9 +19,7 @@ export const Card = styled.div`
   padding: 1em;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 `;
-
-// export const myImg = styled.img`
-//     height: 100px;
-//     width: auto;
-
-// `;
+export const MyImg = styled.img`
+  height: 100px;
+  width: auto;
+`;

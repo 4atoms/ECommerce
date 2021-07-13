@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Title, Container, Card } from "./FeatureProducts.style";
+import { Title, Container, Card, MyImg } from "./FeatureProducts.style";
 import axios from "axios";
 
 const FeatureProducts = () => {
@@ -28,7 +28,9 @@ const FeatureProducts = () => {
       <Container>
         {products.map((product) => (
           <Card key={product.id}>
-            <img src={product.image} alt="" />
+            <MyImg src={product.image} />
+            {console.log(product.image)}
+
             <h3>{product.brand}</h3>
             <p>{product.item}</p>
             <Link to={`/product/${product.id}`}>View</Link>
